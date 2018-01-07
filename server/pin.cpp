@@ -16,11 +16,11 @@ void Pin::set(int p)
     {
          bcm2835_gpio_write(this->numar, p);
 
-        //on->1
+        // on->1
     }
 
 }
-int Pin::get(int stare)
+int Pin::get()
 {
     int res;
 
